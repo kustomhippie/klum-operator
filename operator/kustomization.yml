@@ -10,4 +10,8 @@ resources:
 commonLabels:
   app.kubernetes.io/component: operator
 
+configMapGenerator:
+  - name: klum-operator
+    literals: []
+
 ...

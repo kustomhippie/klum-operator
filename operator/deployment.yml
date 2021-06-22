@@ -23,6 +23,10 @@ spec:
                 fieldRef:
                   fieldPath: metadata.namespace
 
+          envFrom:
+            - configMapRef:
+                name: klum-operator
+
           resources:
             requests:
               cpu: "0.1"
