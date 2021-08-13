@@ -10,7 +10,7 @@ commonLabels:
 
 images:
   - name: klum-operator
-    newName: docker.io/ibuildthecloud/klum
+    newName: ibuildthecloud/klum
     newTag: "v0.0.1-amd64"
 
 ...
