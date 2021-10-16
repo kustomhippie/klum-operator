@@ -7,11 +7,12 @@ resources:
   - clusterrolebinding.yml
   - deployment.yml
 
-commonLabels:
-  app.kubernetes.io/component: operator
-
 configMapGenerator:
   - name: klum-operator
+    options:
+      labels:
+        app.kubernetes.io/name: klum-operator
+        app.kubernetes.io/component: operator
     literals: []
 
 ...
