@@ -15,4 +15,9 @@ configMapGenerator:
         app.kubernetes.io/component: operator
     literals: []
 
+images:
+  - name: klum-operator
+    newName: ibuildthecloud/klum
+    newTag: "v0.0.1-amd64"
+
 ...
