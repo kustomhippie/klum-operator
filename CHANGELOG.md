@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.0](https://github.com/kustomhippie/klum-operator/compare/v1.0.0...v2.0.0) (2023-07-17)
+
+
+### Features
+
+* **major:** update actionhippie/kustomize action to v2 ([56677a4](https://github.com/kustomhippie/klum-operator/commit/56677a4e585be8a417c4ef2a960540932cd39535))
+
 ## 1.0.0 (2023-06-05)
 
 
